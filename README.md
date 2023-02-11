@@ -13,5 +13,5 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 React, MobX, mobx-react, MUI
 
-[![Screenshots](https://github.com/webdeveziz/webdeveziz/blob/main/assets/logowithtext.png)](https://t.me/eziz1209)
-![Screenshots](https://github.com/webdeveziz/webdeveziz/blob/main/assets/logowithtext.png)
+[![Screenshots](https://github.com/webdeveziz/Eziz-todo-mobx/blob/master/src/assets/todomobxlight.png)](https://t.me/eziz1209)
+![Screenshots](https://github.com/webdeveziz/Eziz-todo-mobx/blob/master/src/assets/todomobxdark.png)

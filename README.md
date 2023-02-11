@@ -2,7 +2,7 @@
 To Do list with MobX
 
 ### `The following technology stacks have been used`
-### React, MobX, mobx-react, MUI
+### React, MobX, mobx-react, MUI, MUI Icons, Css variables and nanoid.
 
 ### In the project directory, you can run:  `npm start`
 

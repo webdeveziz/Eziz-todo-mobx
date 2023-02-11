@@ -1,13 +1,65 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import-normalize;
+
+* {
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+:root {
+  /* Typography */
+  /* --family: 'Nunito Sans', sans-serif;
+  --fs-sm: 14px;
+  --fs-md: 16px;
+  --fw-light: 300;
+  --fw-normal: 600;
+  --fw-bold: 800;
+
+  --radius: 0.5rem; */
+}
+
+body[data-theme='dark'] {
+  --colors-text: hsl(0, 0%, 100%);
+  --colors-bg: hsl(207, 26%, 17%);
+--grey: #f1f1f1;
+  --shadow: rgba(245, 245, 245, 0.2) 0 0 8px;
+}
+
+body[data-theme='light'] {
+  --colors-text: hsl(200, 15%, 8%);
+  --colors-bg: hsl(0, 0%, 98%);
+--grey: grey;
+  --shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  color: var(--colors-text);
+  background-color: var(--colors-bg);
+}
+
+.hr{
+  border-color: var(--grey) !important;
+  /* background:  var(--colors-bg) !important; */
+}
+
+.input input {
+  color: var(--colors-text) !important;
+  background:  var(--colors-bg);
+}
+.input label {
+  color: var(--colors-text) !important;
+  background:  var(--colors-bg);
+  
+  border-color: var(--colors-text) !important;
+}
+.input>div{
+  border: 1px solid var(--colors-text) !important;
+    border-radius: 0px;
+}
+
+.btn {
+  color: var(--colors-text) !important;
+  border-color: var(--colors-text) !important;
+  background:  var(--colors-bg);
 }
